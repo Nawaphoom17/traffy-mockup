@@ -1,0 +1,32 @@
+.container {
+    background-color: #f8f8f8;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas:
+        "n"
+        "l"
+        "f";
+    
+}
+
+.nav {
+    grid-area: n;
+    height: 64px;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    background-color: white;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.login {
+    grid-area: l;
+}
+
+.footer {
+    grid-area: f;
+}
+
+* {
+    font-family: 'Noto Sans Thai', sans-serif;
+}
