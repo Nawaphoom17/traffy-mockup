@@ -1,5 +1,6 @@
 import React from 'react'
 import './LoginBoxStyle.css'
+import { Outlet, Link } from "react-router-dom";
 
 function LoginBox() {
   return (
@@ -11,9 +12,8 @@ function LoginBox() {
           <input type='text' id='ticketID' className='-input' placeholder='กรอก Ticket ID เช่น 2023-ABCOP'></input>
           <p className='label'>รหัสเข้าดู</p>
           <input type='text' id='password' className='-input' placeholder='กรอกรหัสเข้าดู'></input>
-          <a href='/' className='summit'>
-            <p>ยืนยัน</p>
-          </a>
+          
+          <Link to={'Home'} className='summit'><p>ยืนยัน</p></Link>
         </div>
         
       </div>
