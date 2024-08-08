@@ -4,6 +4,7 @@ import './HomePageStyle.css'
 import Footer from '../../components/Footer/Footer';
 import Nav from '../../components/Nav/Nav';
 import HomeContent from '../../components/Contents/HomeContent/HomeContent';
+import { Outlet, Link } from "react-router-dom";
 
 function HomePage() {
   return (

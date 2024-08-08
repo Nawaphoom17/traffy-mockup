@@ -9,6 +9,7 @@ import './index.css'
 
 import LoginPage from "./Pages/LoginPage/LoginPage.jsx"
 import HomePage from "./Pages/HomePage/HomePage.jsx"
+import ReportPage from './Pages/ReportPage/ReportPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "Home",
     element: <HomePage/>
+  },
+  {
+    path: "report",
+    element: <ReportPage/>
   }
 ]);
 

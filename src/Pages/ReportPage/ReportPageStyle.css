@@ -1,0 +1,4 @@
+.report-page-all {
+    display: grid;
+    grid-template-rows: 56 auto auto;
+}

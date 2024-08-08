@@ -13,7 +13,7 @@ function LoginBox() {
           <p className='label'>รหัสเข้าดู</p>
           <input type='text' id='password' className='-input' placeholder='กรอกรหัสเข้าดู'></input>
           
-          <Link to={'Home'} className='summit'><p>ยืนยัน</p></Link>
+          <Link to={'/Home'} className='summit'><p>ยืนยัน</p></Link>
         </div>
         
       </div>

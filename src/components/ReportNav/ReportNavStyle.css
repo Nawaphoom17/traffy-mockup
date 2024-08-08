@@ -1,0 +1,19 @@
+.navbar {
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navbar .logo img {
+    height: 29px;
+}
+
+.link{
+    display: flex;
+    gap: 1rem;
+    font-size: 18px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}

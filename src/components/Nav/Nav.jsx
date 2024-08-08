@@ -4,6 +4,7 @@ import TraffyLogo from './style/TraffyLogo-A1zlgBaG.png'
 import BkLogo from './style/1555Logo-0q31Mp9M.png'
 import LineLogo from './style/LineLogo.png'
 import EngLogo from './style/EngLogo.png'
+import { Outlet, Link } from "react-router-dom";
 
 function Nav() {
   return (
@@ -20,12 +21,14 @@ function Nav() {
                         <img src={LineLogo}/>
                     </div>
                 </a>
-                <a href='/' className='btn'>
+                
+                <Link to={'/report'} className='btn'>
                     <p className='-text'>Report in English</p>
                     <div className='-logo'>
                         <img src={EngLogo}/>
                     </div>
-                </a>
+                </Link>
+                
             </div>
         </div>
     </div>
