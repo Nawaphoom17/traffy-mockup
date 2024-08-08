@@ -30,7 +30,7 @@
     align-items: center;
 }
 
-.report .bt {
+.report .btn {
     display: flex;
     border-radius: 8px;
     border: 1px solid rgba(0,0,0,.1);
@@ -39,16 +39,23 @@
     height: 42px;
     align-items: center;
     padding: 1rem .5rem;
+    cursor: pointer;
     
 }
 
-button img {
+.report img {
     height: 14px
 }
 
-button p {
+.report .-text {
     font-weight: 400;
     font-size: 14px;
-    margin-right: 7px;
+    margin-right: .5rem;
+}
+
+.report .-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 

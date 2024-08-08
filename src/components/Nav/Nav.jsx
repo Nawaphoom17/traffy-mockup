@@ -14,14 +14,18 @@ function Nav() {
                 <img className='blogo' src={BkLogo} alt="Bangkok Logo"/>
             </div>
             <div className='report'>
-                <button className='bt'>
-                    <p>แจ้งปัญหาผ่านไลน์</p>
-                    <img src={LineLogo}/>
-                </button>
-                <button className='bt'>
-                    <p>Report in English</p>
-                    <img src={EngLogo}/>
-                </button>
+                <a href='https://page.line.me/105rlyvn?openQrModal=true' target="_blank"className='btn'>
+                    <p className='-text'>แจ้งปัญหาผ่านไลน์</p>
+                    <div className='-logo'>
+                        <img src={LineLogo}/>
+                    </div>
+                </a>
+                <a href='/' className='btn'>
+                    <p className='-text'>Report in English</p>
+                    <div className='-logo'>
+                        <img src={EngLogo}/>
+                    </div>
+                </a>
             </div>
         </div>
     </div>
